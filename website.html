@@ -1,0 +1,70 @@
+Tadios Maynard Duave.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen to My Spotify Playlists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .spotify-player {
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            margin-bottom: 30px;
+        }
+        iframe {
+            width: 100%;
+            height: 380px;
+            border-radius: 8px;
+            border: none;
+        }
+        .playlist-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Listen to My  Top Spotify Playlists</h1>
+</header>
+
+<div class="playlist-container">
+    <!-- Embed Playlist 1 -->
+    <div class="spotify-player">
+        <iframe src="https://open.spotify.com/embed/playlist/5cwZWaMGOTLSyi3iaoEdbq?si=a8w1E1GPQ9KCU_4qeXT0Mw"
+        width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+    <!-- Embed Playlist 2 -->
+    <div class="spotify-player">
+        <iframe src="https://open.spotify.com/embed/playlist/4an3bH4KrblFtr9pgih8IK?si=twaMHt5cS3yCRooPYwT7XQ&pi=a-ADYO0xEQReS2"
+        width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+    <!-- Embed Playlist 3 -->
+    <div class="spotify-player">
+        <iframe src="https://open.spotify.com/embed/playlist/7ghrfUwQqSLcapEi1iSfu4?si=jZy3Js3DSr24BLk40aqSOw"
+        width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+</div>
+
+</body>
+</html>
